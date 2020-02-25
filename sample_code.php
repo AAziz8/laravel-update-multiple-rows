@@ -1,5 +1,5 @@
 <?php
-use DataTable;
+use App\DataTable;
 
 //first make array of your id that which are you want to update
 public function myFunc(){
