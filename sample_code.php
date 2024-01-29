@@ -26,4 +26,13 @@ public function myFunc2(){
 			->get();
 }
 
+// for ids rather than use of whereIn u can simply use find
+
+public function myFunc2(){
+
+	$id_list = [1, 2, 3, 4, 5];
+
+	DataTable::with('category')
+			->find($id_list);
+}
 
